@@ -32,6 +32,8 @@ git clone <repository-url>
 2. Open index.html in your browser.
 
 ---
+### Live Preview
+https://ohenek01.github.io/odin-library/
 
 ## How it Works
 1. Data Storage: All books are stored in the myLibrary array in JavaScript
