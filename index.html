@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="side-bar">
+       <h2>My Library</h2>
+       <form method="post" action="">
+            <h3>Add a Book</h3>
+            <h4>Complete all REQUIRED (*) fields</h4>
+            <p>
+                <label for="book-title">Book Title:*</label>
+                <input id="book-title" type="text" name="book-title" placeholder="The Great Depression" required>
+            </p>
+            <p>
+                <label for="author">Author:*</label>
+                <input id="author" type="text" name="author" placeholder="Benjamin Roth" required>
+            </p>
+            <p>
+                <label for="book-pages">Book Pages:*</label>
+                <input id="book-pages" type="tel" name="pages" placeholder="600" required>
+            </p>
+            <p>
+                <label for="read-status">Have you read the book?</label>
+                <input id="read-status" type="checkbox" name="status" placeholder="The Great Depression">
+                <span class="checkbox"></span>
+            </p>
+       </form>
+    </div>
+</body>
+</html>
