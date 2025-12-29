@@ -28,5 +28,7 @@ It allows users to keep track of their books by adding, displaying, deleting, an
 1. Clone the repository:
 ```bash
 git clone <repository-url>
+```
+2. Open index.html in your browser.
 
 
