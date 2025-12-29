@@ -31,4 +31,11 @@ git clone <repository-url>
 ```
 2. Open index.html in your browser.
 
+---
 
+## How it Works
+1. Data Storage: All books are stored in the myLibrary array in JavaScript
+2. Book Objects: Each book is an instance of the Book constructor with properties title, author, pages, read, and a unique id
+3. Rendering: The renderLibrary function dynamically creates HTML elements for each book and updates the DOM whenever the library changes
+4. Read Status: The read/unread checkbox updates the read property of the book object
+5. Deletion: Each book card has a delete button that removes the corresponding book from myLibrary and re-renders the library
