@@ -31,7 +31,7 @@ container.addEventListener("change", (event) => {
         const id = event.target.dataset.id;
         const book = myLibrary.find((book) => book.id === id);
         if(book){
-            book.read = e.target.checked;
+            book.read = event.target.checked;
             renderLibrary();
         }
     }
