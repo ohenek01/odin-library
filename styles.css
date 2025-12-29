@@ -6,6 +6,10 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+.container{
+    display: flex;
+}
+
 .side-bar{
     background-color: #af7005;
     width: 350px;
@@ -46,8 +50,8 @@ input {
 }
 
 input[type="checkbox"]{
-    margin-left: 100px;
-    margin-top: -20px
+    width: auto;
+    margin-top: 10px
 }
 
 button{
@@ -55,4 +59,27 @@ button{
     width: 250px;
     border-radius: 1em;
     border: none
+}
+
+.card-container{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    background-color:rgb(127, 238, 255);
+    height: 270px;
+    padding: 15px;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.card button{
+    background-color: gray;
+    width: 120px;
 }
